@@ -1,0 +1,13 @@
+repositories:
+  - name: sealed-secrets
+    url: https://bitnami-labs.github.io/sealed-secrets
+  - name: kubeseal
+    url: https://jaydee94.github.io/kubeseal-webgui
+
+releases:
+  - name: sealed-secrets
+    namespace: sealed-secrets
+    chart: sealed-secrets/sealed-secrets
+  - name: kubeseal
+    namespace: kubeseal
+    chart: kubeseal/kubeseal-webgui
